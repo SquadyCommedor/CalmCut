@@ -1,0 +1,65 @@
+export const scenes = [
+  {
+    id: 1,
+    title: 'Preparação',
+    description: 'Vamos preparar-nos para ir ao cabeleireiro!',
+    image: '/images/scene1.jpg',
+    tip: 'Leva um brinquedo que te faça sentir seguro',
+    duration: 30,
+  },
+  {
+    id: 2,
+    title: 'A Caminho',
+    description: 'Estamos a caminho do cabeleireiro!',
+    image: '/images/scene2.jpg',
+    tip: 'Respira fundo 3 vezes se sentires nervoso',
+    duration: 45,
+  },
+  {
+    id: 3,
+    title: 'Chegada',
+    description: 'Chegámos ao salão!',
+    image: '/images/scene3.jpg',
+    tip: 'Diz olá ao cabeleireiro com um sorriso',
+    duration: 30,
+  },
+  {
+    id: 4,
+    title: 'A Cadeira',
+    description: 'A cadeira sobe e desce como um elevador!',
+    image: '/images/scene4.jpg',
+    tip: 'Pede ajuda se precisares de subir',
+    duration: 60,
+  },
+  {
+    id: 5,
+    title: 'O Capote',
+    description: 'O capote é como uma capa de super-herói!',
+    image: '/images/scene5.jpg',
+    tip: 'O capote é macio e quentinho',
+    duration: 30,
+  },
+  {
+    id: 6,
+    title: 'Cortar',
+    description: 'Faz "snip snip" com as tesouras!',
+    image: '/images/scene6.jpg',
+    tip: 'Podes pedir uma pausa a qualquer momento',
+    duration: 90,
+  },
+  {
+    id: 7,
+    title: 'Resultado',
+    description: 'Uau! Ficas tão giro/a!',
+    image: '/images/scene7.jpg',
+    tip: 'Pede para tirar uma foto!',
+    duration: 30,
+  },
+];
+
+export const rewards = [
+  { id: '1', type: 'star' as const, label: 'Primeira Cena' },
+  { id: '2', type: 'award' as const, label: 'Corajoso' },
+  { id: '3', type: 'trophy' as const, label: 'Visitante' },
+  { id: '4', type: 'medal' as const, label: 'Campeão' },
+];

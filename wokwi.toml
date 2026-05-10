@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+
+firmware = "esp32_sensores/build/esp32_sensores.ino.bin"
+elf      = "esp32_sensores/build/esp32_sensores.ino.elf"

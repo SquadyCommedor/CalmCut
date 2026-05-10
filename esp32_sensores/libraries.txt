@@ -1,0 +1,5 @@
+# Wokwi Libraries
+# Este ficheiro diz ao Wokwi que bibliotecas instalar
+
+WebSockets
+ArduinoJson

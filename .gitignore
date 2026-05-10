@@ -1,0 +1,59 @@
+# ─── Variáveis de ambiente (NUNCA para o GitHub) ─────
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# ─── Dependências ─────────────────────────────────────
+node_modules/
+
+# ─── Build React/Vite ─────────────────────────────────
+dist/
+dist-ssr/
+build/
+
+# ─── Cache Vite ───────────────────────────────────────
+.vite/
+
+# ─── ESP32 / Arduino — ficheiros compilados ───────────
+esp32_sensores/build/
+*.elf
+*.bin
+*.hex
+*.map
+
+# ─── Python ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+venv/
+.venv/
+
+# ─── Logs ─────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Editor ───────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Sistema operativo ────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Wokwi (licença local, não partilhar) ─────────────
+.wokwi-token
