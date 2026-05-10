@@ -4,7 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "python bridge.py",
+    "startCommand": "python3 bridge.py",
     "restartPolicyType": "ON_FAILURE"
   }
 }
